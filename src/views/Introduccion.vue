@@ -19,6 +19,40 @@
     .bg1.p-4
       p.mb-0 Este componente desarrolla la interpretación del patrón desde una perspectiva productiva. El recorrido comienza con la lectura de la ficha técnica, la orden de producción y la muestra física; continúa con el reconocimiento de los sistemas manuales y digitales de patronaje; avanza hacia la identificación de patrones básicos, transformaciones y escalados; y finaliza estableciendo la relación entre la configuración de las piezas y el aprovechamiento del material. El propósito no es construir patrones, sino comprender la información que contienen y verificar su correspondencia con los requerimientos definidos para la producción.
 
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 </template>
 
 <script>

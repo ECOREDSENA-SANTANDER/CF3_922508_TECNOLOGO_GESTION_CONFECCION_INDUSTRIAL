@@ -105,7 +105,57 @@ figcaption
   background-color: #A1B0B9
 .bg4
   background-color: #F6F6F6
+.bg5
+  background-color: #BBDFEE
+  border-top-right-radius:80px
+.bg6
+  background-color: #FCF1C7
+.fa-chevron-right 
+  --fa: "\f054"
+  color: #FFD548
+.fa-chevron-left 
+  --fa: "\f053"
+  color: #FFD548
 
+.subt
+  display: flex
+  align-items: center
+  position: relative  
+  width: fit-content  
+  img
+    width: 40px
+    z-index: 1
+  h3 
+    z-index: 1
+  &::before
+    content: ''
+    position: absolute
+    background-color: #55AFD4  
+    border-radius: 100px
+    width: 100%
+    height: 4px
+    z-index: 0
+    bottom: -7px
+  &::after
+    content: ''
+    position: absolute
+    border-bottom: 1px dashed #A1B0B9
+    width: 100%
+    height: 4px
+    z-index: 0
+    bottom: 0px
+.fondo01
+  background-image: url('../assets/curso/temas/t1/fondo.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  margin-inline: -3.4rem
+  @media screen and (max-width: 992px)
+    margin-inline: -3rem  
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    margin-inline: -1.4rem  
+    background-size: cover 
 
 
 
