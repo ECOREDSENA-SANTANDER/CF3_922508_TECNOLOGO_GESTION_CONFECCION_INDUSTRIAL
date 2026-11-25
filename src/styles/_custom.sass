@@ -175,6 +175,42 @@ figcaption
   @media screen and (max-width: 767px)
     margin-inline: -1.4rem  
     background-size: cover 
+.bgslyder
+  background-image: url('../assets/curso/temas/t3/fondo.png')
+  background-position: center
+  background-size: 100% 100%
+  background-repeat: no-repeat
+  @media screen and (max-width: 992px)
+    background-size: cover 
+  @media screen and (max-width: 767px)
+    background-size: cover 
+.SlyderA
+  .row
+    .col-md-6:first-child
+      border-left: none !important
+      &::before
+        display: none !important
+.slyder-a__bullets__item--active 
+    background-color: #55AFD4 !important
+    border-color: #55AFD4
+    opacity: 1
+.slyder-a__bullets__item 
+  background-color: #FFF7EA
+.slyder-a__btn--sigt, .slyder-a__btn--atrs 
+  background-color: #FFD548
+.acordion__accion__btn--b
+  background-color: #FFD548 !important
+.acordion__accion__btn--a
+  background-color: #FFD548 !important
+.acordion .tarjeta--azul
+  background-color: #513013 !important
+  .acordion__titulo h3
+    color: #fff !important
+  &.acordion__activo
+    .acordion__titulo h3
+      color: #000 !important
+.acordion .tarjeta.tarjeta--azul.acordion__activo
+  background-color: #BBDFEE!important
 
 
 
@@ -209,5 +245,42 @@ figcaption
   .mb-cus
     margin-bottom: 2em  !important
 
-  
- 
+
+.tarjeta-info
+  height: 100%
+  overflow: hidden
+  border-radius: 25px
+  background: #56B1D0
+  color: #102E3C
+
+  &__imagen
+    height: 181px
+    overflow: hidden
+    background: #173F52
+
+    img
+      width: 100%
+      height: 100%
+      object-fit: cover
+      display: block
+
+  &__contenido
+    min-height: 332px
+    padding: 20px 25px
+    font-size: 16px
+    line-height: 1.5
+
+    h5
+      font-size: 16px
+      font-weight: bold
+      margin-bottom: 15px
+
+    ul
+      padding-left: 20px
+
+//// TABLET 992--------------------------------------------
+
+@media screen and (max-width: $bp-max-md)
+  .tarjeta-info
+    &__contenido
+      min-height: auto
